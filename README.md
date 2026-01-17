@@ -2,6 +2,7 @@
 
 **Jeu de Hacking et Cybersécurité**
 *Version 0.1.0 Alpha*
+Lien : vesrion exe : https://drive.google.com/drive/folders/1ahGBGiZYREwBIXZ4RtuXL8QozfmOyv8z?usp=sharing
 
 ## Description
 CyberHero est un "serious game" éducatif qui vous plonge dans la peau d'un spécialiste en cybersécurité. À travers une interface de bureau virtuel immersive, vous apprendrez les bases du hacking éthique, de la défense réseau et de l'investigation numérique.
