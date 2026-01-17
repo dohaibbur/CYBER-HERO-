@@ -1,0 +1,36 @@
+{
+    "nickname": "baker",
+    "email": "",
+    "password": "0000",
+    "progress": {
+        "xp": 1300,
+        "level": "Membre de Confiance",
+        "reputation": 1,
+        "credits": 2000,
+        "missions_completed": [
+            "mission1",
+            "mission2",
+            "mission3"
+        ],
+        "unlocked_missions": [
+            "mission1",
+            "mission2",
+            "mission3",
+            "mission4"
+        ],
+        "badges": [
+            "Network Defender",
+            "Packet Detective",
+            "Packet Forensics Expert"
+        ],
+        "alerts": 2
+    },
+    "saved_at": "2026-01-17T21:51:31.467370",
+    "created_at": "2026-01-17T21:42:35.143580",
+    "avatar": "avatar_3.png",
+    "bio": "world",
+    "downloaded_tools": [
+        "wireshark",
+        "pcap_analyzer"
+    ]
+}

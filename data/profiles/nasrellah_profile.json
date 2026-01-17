@@ -1,0 +1,26 @@
+{
+    "nickname": "nasrellah",
+    "email": "",
+    "password": "0000",
+    "progress": {
+        "xp": 500,
+        "level": "Debutant",
+        "reputation": 1,
+        "credits": 2500,
+        "missions_completed": [
+            "mission1"
+        ],
+        "unlocked_missions": [
+            "mission1",
+            "mission2"
+        ],
+        "badges": [
+            "Network Defender"
+        ],
+        "alerts": 2
+    },
+    "saved_at": "2026-01-17T21:36:04.512134",
+    "created_at": "2026-01-17T21:31:18.449423",
+    "avatar": "avatar_3.png",
+    "bio": "hi"
+}

@@ -1,0 +1,105 @@
+{
+    "title": "Command Reference Guide",
+    "description": "Complete reference for all available commands in CyberHero",
+    "commands": [
+        {
+            "name": "nmap",
+            "category": "Network Tools",
+            "usage": "nmap <target> [options]",
+            "description": "Network scanning tool for discovering open ports and services",
+            "options": [
+                {
+                    "flag": "-p",
+                    "description": "Specify ports to scan (e.g., -p 80,443)"
+                },
+                {
+                    "flag": "-A",
+                    "description": "Enable OS detection and version scanning"
+                }
+            ],
+            "examples": [
+                "nmap 192.168.1.100 - Basic port scan",
+                "nmap 192.168.1.100 -p 80 - Scan specific port",
+                "nmap 192.168.1.100 -A - Advanced scan with OS detection"
+            ]
+        },
+        {
+            "name": "vpn",
+            "category": "Anonymity Tools",
+            "usage": "vpn <action>",
+            "description": "VPN tool for anonymous operations",
+            "actions": [
+                "connect - Connect to VPN",
+                "disconnect - Disconnect from VPN",
+                "status - Show connection status"
+            ],
+            "examples": [
+                "vpn connect - Connect to VPN",
+                "vpn status - Check VPN status"
+            ]
+        },
+        {
+            "name": "analyze",
+            "category": "Analysis Tools",
+            "usage": "analyze <file>",
+            "description": "Packet analysis tool for examining network captures",
+            "examples": [
+                "analyze traffic.pcap - Analyze packet capture file"
+            ]
+        },
+        {
+            "name": "crack",
+            "category": "Password Tools",
+            "usage": "crack <file> [options]",
+            "description": "Password hash cracking tool",
+            "options": [
+                {
+                    "flag": "-w",
+                    "description": "Wordlist file to use"
+                },
+                {
+                    "flag": "-t",
+                    "description": "Hash type (md5, sha1, sha256)"
+                }
+            ],
+            "examples": [
+                "crack hashes.txt - Crack hashes with built-in wordlist",
+                "crack admin_hash.txt -t md5 - Specify hash type"
+            ]
+        },
+        {
+            "name": "help",
+            "category": "Utility",
+            "usage": "help [command]",
+            "description": "Show help information",
+            "examples": [
+                "help - Show all commands",
+                "help nmap - Show detailed help for nmap"
+            ]
+        },
+        {
+            "name": "objectives",
+            "category": "Mission",
+            "usage": "objectives",
+            "description": "Display current mission objectives and progress"
+        },
+        {
+            "name": "hint",
+            "category": "Mission",
+            "usage": "hint",
+            "description": "Get a hint for the current objective"
+        },
+        {
+            "name": "clear",
+            "category": "Utility",
+            "usage": "clear",
+            "description": "Clear the terminal screen"
+        },
+        {
+            "name": "exit",
+            "category": "Utility",
+            "usage": "exit",
+            "description": "Exit current mission and return to hub"
+        }
+    ]
+}

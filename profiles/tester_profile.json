@@ -1,0 +1,24 @@
+{
+    "nickname": "tester",
+    "email": "",
+    "password": "tester",
+    "progress": {
+        "xp": 500,
+        "level": "Debutant",
+        "reputation": 1,
+        "credits": 2500,
+        "missions_completed": [
+            "mission1"
+        ],
+        "unlocked_missions": [
+            "mission1",
+            "mission2"
+        ],
+        "badges": [
+            "Network Defender"
+        ],
+        "alerts": 2
+    },
+    "saved_at": "2026-01-17T21:26:21.535961",
+    "created_at": "2026-01-17T21:25:31.437734"
+}

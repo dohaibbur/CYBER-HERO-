@@ -1,0 +1,19 @@
+{
+    "nickname": "rabbit",
+    "email": "",
+    "password": "0000",
+    "progress": {
+        "xp": 0,
+        "level": "Debutant",
+        "reputation": 1,
+        "credits": 2500,
+        "missions_completed": [],
+        "unlocked_missions": [
+            "mission1"
+        ],
+        "badges": [],
+        "alerts": 2
+    },
+    "saved_at": "2026-01-17T21:39:30.738878",
+    "created_at": "2026-01-17T21:39:30.738878"
+}

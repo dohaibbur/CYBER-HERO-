@@ -1,0 +1,59 @@
+{
+    "title": "VPN Guide - Anonymity and Privacy",
+    "description": "Learn how Virtual Private Networks protect your identity online",
+    "sections": [
+        {
+            "heading": "What is a VPN?",
+            "content": "A Virtual Private Network (VPN) creates an encrypted tunnel between your device and a remote server. Your internet traffic is routed through this tunnel, hiding your real IP address and location."
+        },
+        {
+            "heading": "Why Use a VPN?",
+            "benefits": [
+                "Hide your IP address and location",
+                "Encrypt your internet traffic",
+                "Protect privacy on public WiFi",
+                "Bypass geographic restrictions",
+                "Prevent ISP tracking"
+            ]
+        },
+        {
+            "heading": "How VPNs Work",
+            "content": "When you connect to a VPN:\n\n1. Your device establishes an encrypted connection to a VPN server\n2. All your internet traffic is routed through this server\n3. Websites see the VPN server's IP, not yours\n4. Your ISP can't see what websites you visit\n5. Your data is protected from eavesdropping"
+        },
+        {
+            "heading": "VPN Usage in CyberHero",
+            "commands": [
+                {
+                    "command": "vpn connect",
+                    "description": "Connect to a VPN server for anonymity"
+                },
+                {
+                    "command": "vpn disconnect",
+                    "description": "Disconnect from VPN and use your real IP"
+                },
+                {
+                    "command": "vpn status",
+                    "description": "Check if VPN is connected"
+                }
+            ]
+        },
+        {
+            "heading": "When to Use VPN in Missions",
+            "content": "Always connect to VPN before:\n\n✓ Scanning networks\n✓ Testing security vulnerabilities\n✓ Accessing sensitive systems\n✓ Any reconnaissance activities\n\nThis protects your identity and follows ethical hacking best practices."
+        },
+        {
+            "heading": "VPN Limitations",
+            "content": "VPNs are not perfect:\n\n• VPN providers can see your traffic\n• Some websites block VPN connections\n• VPNs don't protect against malware\n• Your behavior can still identify you\n• Logging policies vary by provider\n\nFor maximum anonymity, combine VPN with TOR and other privacy tools."
+        },
+        {
+            "heading": "Real-World VPN Tips",
+            "tips": [
+                "Choose VPNs with no-logging policies",
+                "Use VPNs in countries with strong privacy laws",
+                "Always use VPN on public WiFi",
+                "Check for DNS leaks",
+                "Don't trust free VPNs with sensitive data"
+            ]
+        }
+    ]
+}

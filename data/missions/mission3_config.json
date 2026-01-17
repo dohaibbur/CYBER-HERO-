@@ -1,0 +1,38 @@
+{
+    "id": "mission_003",
+    "title": "SQL Injection Detection",
+    "difficulty": "intermediate",
+    "prerequisites": ["mission_002"],
+    "story": "A web application has been reported to have security vulnerabilities. Your task is to identify and document SQL injection vulnerabilities in the login form without causing damage.",
+    "objectives": [
+        "Access the vulnerable web application",
+        "Test the login form for SQL injection",
+        "Extract database information",
+        "Document the vulnerability",
+        "Provide remediation recommendations"
+    ],
+    "tools_required": ["web_browser", "burp_suite", "sqlmap"],
+    "challenge_data": {
+        "target_url": "http://testapp.local/login",
+        "vulnerable_parameter": "username",
+        "database_type": "MySQL",
+        "expected_findings": ["users table", "admin credentials"]
+    },
+    "hints": [
+        "Try common SQL injection payloads: ' OR '1'='1",
+        "Look for error messages that reveal database structure",
+        "Use SQLMap for automated testing: sqlmap -u [URL] --forms"
+    ],
+    "validation": {
+        "type": "sqli_exploit",
+        "required_findings": ["database_name", "table_structure"],
+        "ethical_check": true
+    },
+    "rewards": {
+        "xp": 250,
+        "reputation": 25,
+        "unlocks": ["mission_004"],
+        "tools": ["advanced_web_scanner"]
+    },
+    "estimated_time": "25-30 minutes"
+}

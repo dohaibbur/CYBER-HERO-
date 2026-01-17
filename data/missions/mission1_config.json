@@ -1,0 +1,73 @@
+{
+    "id": "mission1",
+    "title": "First Breach",
+    "difficulty": "beginner",
+    "prerequisites": [],
+    "story": "A local coffee shop's WiFi is being used for suspicious activity. Customers have reported their accounts being compromised after using the free WiFi. Investigate the network, find evidence of the breach, and identify how the attacker accessed customer credentials. Remember to protect your anonymity and follow ethical hacking practices.",
+    "objectives": [
+        "Establish anonymous connection using VPN",
+        "Scan the coffee shop's network to discover services",
+        "Identify all open ports on the target system",
+        "Analyze captured network traffic for evidence",
+        "Extract any credentials found in the traffic",
+        "Complete the security investigation"
+    ],
+    "tools_required": [
+        "vpn",
+        "nmap",
+        "analyze"
+    ],
+    "challenge_data": {
+        "target_network": "192.168.1.100",
+        "open_ports": [22, 80, 3306],
+        "packet_file": "traffic.pcap",
+        "expected_credentials": {
+            "username": "admin",
+            "password": "SecurePass123"
+        },
+        "required_commands": [
+            "vpn connect",
+            "nmap 192.168.1.100",
+            "download 192.168.1.100 traffic.pcap",
+            "analyze traffic.pcap"
+        ]
+    },
+    "hints": [
+        "Before starting any investigation, protect your identity. What tool can make you anonymous?",
+        "You need to discover what services are running on the target network. Check the available scanning tools.",
+        "After scanning, you'll see available files on the target. Download the packet capture file before analyzing it.",
+        "Look for any HTTP traffic in the packet analysis - unencrypted protocols can leak sensitive data.",
+        "Credentials are often transmitted as username and password pairs. Examine all the packet data carefully."
+    ],
+    "validation": {
+        "type": "sequential",
+        "required_tools": ["vpn", "nmap", "analyze"],
+        "success_conditions": {
+            "vpn_connected": true,
+            "target_scanned": "192.168.1.100",
+            "ports_found": 3,
+            "credentials_extracted": true
+        }
+    },
+    "rewards": {
+        "xp": 100,
+        "reputation": 10,
+        "unlocks": ["mission2"],
+        "achievements": ["first_breach_complete", "network_scanner"]
+    },
+    "estimated_time": "15-20 minutes",
+    "learning_outcomes": [
+        "Understanding network reconnaissance basics",
+        "Learning about port scanning with Nmap",
+        "Recognizing the importance of anonymity (VPN)",
+        "Understanding packet analysis fundamentals",
+        "Recognizing cleartext credential vulnerabilities",
+        "Learning why HTTPS is essential for security"
+    ],
+    "educational_notes": {
+        "vpn": "VPNs encrypt your traffic and mask your IP address, providing anonymity. Always use a VPN when conducting security research.",
+        "nmap": "Nmap scans networks to discover open ports and services. Open ports can be entry points for attackers.",
+        "packet_analysis": "Packet capture tools can record all network traffic. On public WiFi, this is a serious privacy risk.",
+        "https": "HTTPS encrypts web traffic, preventing credentials from being stolen. Always check for HTTPS before entering sensitive information."
+    }
+}

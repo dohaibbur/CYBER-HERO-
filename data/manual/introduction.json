@@ -1,0 +1,37 @@
+{
+    "title": "Welcome to CyberHero",
+    "sections": [
+        {
+            "heading": "What is CyberHero?",
+            "content": "CyberHero is an educational cybersecurity game that teaches you real hacking techniques in a safe, legal environment. You'll learn penetration testing, network analysis, and ethical hacking through story-driven missions."
+        },
+        {
+            "heading": "How to Play",
+            "content": "Each mission presents a cybersecurity challenge. You'll use realistic hacking tools through a terminal interface to complete objectives. Follow the mission briefing, use the right tools, and learn as you go!"
+        },
+        {
+            "heading": "Game Mechanics",
+            "content": [
+                "• Missions: Complete story-driven hacking challenges",
+                "• Objectives: Each mission has specific goals to achieve",
+                "• Tools: Use VPN, Nmap, packet analyzers, and more",
+                "• Hints: Get help when you're stuck",
+                "• XP & Progression: Earn experience and unlock new missions"
+            ]
+        },
+        {
+            "heading": "Available Commands",
+            "content": [
+                "help - Show all available commands",
+                "objectives - View current mission objectives",
+                "hint - Get a helpful hint",
+                "clear - Clear the terminal screen",
+                "exit - Exit current mission"
+            ]
+        },
+        {
+            "heading": "Ethical Hacking",
+            "content": "CyberHero teaches ethical hacking - using hacking skills for good. Always remember:\n\n✓ Only test systems you have permission to access\n✓ Never cause damage or harm\n✓ Protect user privacy and data\n✓ Use your skills to improve security, not break it\n\nThe tools and techniques you learn are powerful. Use them responsibly!"
+        }
+    ]
+}

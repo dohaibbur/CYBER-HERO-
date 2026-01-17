@@ -1,0 +1,27 @@
+{
+    "nickname": "doha",
+    "email": "",
+    "password": "doha",
+    "progress": {
+        "xp": 500,
+        "level": "Debutant",
+        "reputation": 1,
+        "credits": 2200,
+        "missions_completed": [
+            "mission1"
+        ],
+        "unlocked_missions": [
+            "mission1",
+            "mission2"
+        ],
+        "badges": [
+            "Network Defender"
+        ],
+        "alerts": 2
+    },
+    "saved_at": "2026-01-17T22:25:16.866874",
+    "created_at": "2026-01-17T22:01:12.035272",
+    "downloaded_tools": [
+        "wireshark"
+    ]
+}

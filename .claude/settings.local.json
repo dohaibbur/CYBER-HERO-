@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(python main.py:*)",
+      "Bash(ls:*)",
+      "Bash(timeout:*)",
+      "Bash(python -c:*)",
+      "Bash(dir:*)",
+      "Bash(grep:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(del \"data\\\\profiles\\\\*.json\")",
+      "Bash(del \"c:\\\\Users\\\\nasrellahhabchi\\\\Documents\\\\cyberhero\\\\data\\\\profiles\\\\0000_profile.json\")",
+      "Bash(python build_exe.py:*)"
+    ]
+  }
+}
